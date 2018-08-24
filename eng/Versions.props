@@ -4,4 +4,8 @@
       <VersionPrefix>1.0.0</VersionPrefix>
       <PreReleaseVersionLabel>prerelease</PreReleaseVersionLabel>
   </PropertyGroup>
+  
+  <PropertyGroup>
+    <MicrosoftDotNetHelixClientVersion>1.0.0-beta.18421.3</MicrosoftDotNetHelixClientVersion>
+  </PropertyGroup>
 </Project>
