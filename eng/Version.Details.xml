@@ -13,9 +13,9 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>ef208f75c0494f47bf79a317773adcb398c35f92</Sha>
     </Dependency>
-    <Dependency Name="System.Windows.Forms" Version="1.0.0-prerelease.18530.3">
+    <Dependency Name="System.Windows.Forms" Version="1.0.0-prerelease.18530.4">
       <Uri>https://github.com/dotnet/winforms</Uri>
-      <Sha>ef208f75c0494f47bf79a317773adcb398c35f92</Sha>
+      <Sha>6e9fd20eddf3cb08c876865ca4769a78d71547d0</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
