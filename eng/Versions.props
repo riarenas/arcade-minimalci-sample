@@ -2,6 +2,9 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <PreReleaseVersionLabel>prerelease</PreReleaseVersionLabel>
+    <PreReleaseVersionLabel>beta</PreReleaseVersionLabel>
+    <MicrosoftDotNetBuildTasksFeedPackageVersion>1.0.0-beta.18526.8</MicrosoftDotNetBuildTasksFeedPackageVersion>
+    <MicrosoftDotNetMaestroTasksVersion>1.0.0-beta.18526.8</MicrosoftDotNetMaestroTasksVersion>
+    <MicrosoftDotNetSignToolVersion>1.0.0-beta.18526.8</MicrosoftDotNetSignToolVersion>
   </PropertyGroup>
 </Project>
