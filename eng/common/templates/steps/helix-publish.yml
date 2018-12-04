@@ -27,12 +27,10 @@ steps:
     condition: and(succeeded(), eq(variables['Agent.Os'], 'Windows_NT'))
     env:
       DotnetPath: ${{ parameters.DotnetPath }}
-  - script: |
-      echo $DotnetPath
-      echo $PATH
-      echo ##vso[task.prependpath]$DotnetPath
-      echo $PATH
+  - script: 'echo ##vso[task.prependpath]$DotnetPath'
     displayName: Prepend dotnet to path
+    condition: and(succeeded(), ne(variables['Agent.Os'], 'Windows_NT'))
+  - script: 'echo $PATH'
     condition: and(succeeded(), ne(variables['Agent.Os'], 'Windows_NT'))
     env:
       DotnetPath: ${{ parameters.DotnetPath }}
